@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flask Image Pyresearch Recognition Results</title>
+  </head>
+  <body>
+    <h1>Flask Image Pyresearch Recognition Results</h1>
+    <p>Top 3 predicted results:</p>
+    <ul>
+      {% for result in results %}
+        <li>{{ result[1] }} - {{ result[2] }}</li>
+      {% endfor %}
+    </ul>
+  </body>
+</html>

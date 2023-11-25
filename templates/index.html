@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Flask Image Pyresearch Recognition</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  </head>
+  <body>
+    <h1>Flask Image Recognition</h1>
+    <form action="{{ url_for('upload') }}" method="post" enctype="multipart/form-data">
+      <input type="file" name="file" accept=".png, .jpg, .jpeg">
+      <input type="submit" value="Upload">
+    </form>
+  </body>
+</html>

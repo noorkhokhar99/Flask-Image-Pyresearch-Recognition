@@ -1,0 +1,16 @@
+body {
+    font-family: sans-serif;
+    font-size: 1.2em;
+}
+
+h1 {
+    margin-top: 50px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+input[type="file"] {
+    margin-right: 10px;
+}
